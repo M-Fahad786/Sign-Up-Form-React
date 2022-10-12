@@ -1,0 +1,146 @@
+/* Font Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+}
+
+/* main container */
+.main {
+  display: flex;
+}
+
+/* Background Image */
+.image {
+  display: flex;
+  width: 70%;
+  height: 100vh;
+}
+
+.image img {
+  width: 100%;
+}
+
+/* SignUp Form  */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: -5% 0 0 3%;
+}
+
+/* Header */
+.wrapper h1 {
+  font-weight: 200;
+  font-size: 30px;
+  padding: 2px;
+}
+
+/* Input  */
+.email input {
+  width: 448px;
+  height: 78px;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding-left: 10px;
+  display: block;
+  outline: none;
+  border: 1px solid rgb(127, 134, 155);
+  font-size: 18px;
+  transition: all 0.2s;
+}
+
+.email input:focus {
+  border: 3px solid royalblue;
+}
+/* Input */
+.password input {
+  width: 448px;
+  height: 78px;
+  border-radius: 10px;
+  outline: none;
+  margin-top: 10px;
+  padding-left: 10px;
+  display: block;
+  border: 1px solid rgb(127, 134, 155);
+  font-size: 18px;
+  transition: all 0.2s;
+}
+
+.password input:focus {
+  border: 3px solid royalblue;
+}
+
+/* Remember me Button Checkbox*/
+.wrapper p {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+}
+
+/* Forget Password Button  */
+.pass {
+  cursor: pointer;
+}
+.pass:hover {
+  color: #6675df;
+}
+
+/* Login Button  */
+.wrapper button {
+  width: 450px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6675df;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.wrapper button:hover {
+  background-color: #333;
+}
+
+/* Social Links  */
+.links p {
+  font-weight: 200;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0 10px 1px;
+  font-size: 14px;
+}
+/* Social Images  */
+.images {
+  display: flex;
+  justify-content: center;
+}
+
+.images img {
+  width: 30px;
+  height: 30px;
+  margin: -5px 5px 0 0;
+  border-radius: 50px;
+  cursor: pointer;
+  border: none;
+}
+
+
+@media  (max-width:1730px)  {
+  .wrapper {
+    margin: -1% 0 0 2%;
+  }
+}
+
+
